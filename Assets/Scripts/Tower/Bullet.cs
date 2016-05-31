@@ -33,7 +33,7 @@ public class Bullet : MonoBehaviour
 	{
 		if (col.gameObject.tag == "Enemy")
 		{
-			col.GetComponent<EnemyHp>().HpManager();
+			//col.GetComponent<EnemyHp>().HpManager();
 			Destroy(this.gameObject);
 		}
 	}
