@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Herbruikbare_classes_2.CSharp", "Herbruikbare_classes_2.CSharp.csproj", "{7F3A3E9A-93E9-5B95-F06F-AAAE943E43CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F3A3E9A-93E9-5B95-F06F-AAAE943E43CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F3A3E9A-93E9-5B95-F06F-AAAE943E43CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F3A3E9A-93E9-5B95-F06F-AAAE943E43CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F3A3E9A-93E9-5B95-F06F-AAAE943E43CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
