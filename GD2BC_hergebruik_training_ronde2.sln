@@ -1,7 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{28FAA946-A907-5F61-17E9-573F314117AA}") = "GD2BC_hergebruik_training_ronde2", "Assembly-CSharp.csproj", "{66DC3CF5-F89A-E628-1B7E-BBCCDBD167E3}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GD2BC_hergebruik_training_ronde2.CSharp", "GD2BC_hergebruik_training_ronde2.CSharp.csproj", "{184E3E13-F3AA-1568-96B9-68F7A049D0E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{66DC3CF5-F89A-E628-1B7E-BBCCDBD167E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{66DC3CF5-F89A-E628-1B7E-BBCCDBD167E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{66DC3CF5-F89A-E628-1B7E-BBCCDBD167E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{66DC3CF5-F89A-E628-1B7E-BBCCDBD167E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{184E3E13-F3AA-1568-96B9-68F7A049D0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{184E3E13-F3AA-1568-96B9-68F7A049D0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{184E3E13-F3AA-1568-96B9-68F7A049D0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{184E3E13-F3AA-1568-96B9-68F7A049D0E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
