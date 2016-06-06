@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/BESTSCENE.unity
+=======
+- path: Assets/Scenes/otherscene.unity
+>>>>>>> origin/Benjamin_Uijldert-Jeffrey_Laarman
   isLoaded: 1
   isActive: 1

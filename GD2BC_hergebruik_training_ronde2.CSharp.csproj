@@ -18,7 +18,10 @@
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>5.3.4f1</UnityVersion>
     <RootNamespace></RootNamespace>
+<<<<<<< HEAD
+=======
     <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+>>>>>>> origin/Benjamin_Uijldert-Jeffrey_Laarman
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -63,16 +66,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <Compile Include="Assets\Scripts\Interface\IWeapon.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerInput.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerWeapons.cs" />
+    <Compile Include="Assets\Scripts\Tower\TowerShoot.cs" />
+    <Compile Include="Assets\Scripts\Uncategorized\DestroyObjectOverTime.cs" />
+=======
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\Interface\IWeapon.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInput.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerWeapons.cs" />
     <Compile Include="Assets\Scripts\Weapons\Bullet.cs" />
+>>>>>>> origin/Benjamin_Uijldert-Jeffrey_Laarman
     <Compile Include="Assets\Scripts\Weapons\HandGun.cs" />
     <Compile Include="Assets\Scripts\Weapons\MiniGun.cs" />
     <Compile Include="Assets\Scripts\Weapons\Sniper.cs" />
     <Compile Include="Assets\Scripts\Weapons\Weapon.cs" />
   </ItemGroup>
+<<<<<<< HEAD
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+=======
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+>>>>>>> origin/Benjamin_Uijldert-Jeffrey_Laarman
 </Project>

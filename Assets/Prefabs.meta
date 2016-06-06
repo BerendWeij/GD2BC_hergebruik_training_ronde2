@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 8ad36355cc876954ca6ac6715bd38bd6
+folderAsset: yes
+timeCreated: 1465234676
+=======
 guid: 12529f33d41f1314c840efe7091e1597
 folderAsset: yes
 timeCreated: 1465234058
+>>>>>>> origin/Benjamin_Uijldert-Jeffrey_Laarman
 licenseType: Free
 DefaultImporter:
   userData: 

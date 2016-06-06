@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+<<<<<<< HEAD
+# Visual Studio 2013
+=======
 # Visual Studio 2015
+>>>>>>> origin/Benjamin_Uijldert-Jeffrey_Laarman
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GD2BC_hergebruik_training_ronde2.CSharp", "GD2BC_hergebruik_training_ronde2.CSharp.csproj", "{184E3E13-F3AA-1568-96B9-68F7A049D0E1}"
 EndProject
 Global
