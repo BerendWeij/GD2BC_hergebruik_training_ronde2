@@ -10,4 +10,8 @@ public class PlayerMovementData : MonoBehaviour {
 
     [SerializeField]
     protected float walkSpeedDivider = 30; // Usually not going to edit this so I'll pass a default.
+
+    protected Rigidbody2D rb;
+
+    protected bool touchingGround = false;
 }

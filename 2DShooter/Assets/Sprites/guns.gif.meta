@@ -1,0 +1,359 @@
+fileFormatVersion: 2
+guid: 6d04b5a0c503f0241b615873ed9e50c5
+timeCreated: 1464706514
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: guns_0
+    21300002: guns_1
+    21300004: guns_2
+    21300006: guns_3
+    21300008: guns_4
+    21300010: guns_5
+    21300012: guns_6
+    21300014: guns_7
+    21300016: guns_8
+    21300018: guns_9
+    21300020: guns_10
+    21300022: guns_11
+    21300024: guns_12
+    21300026: guns_13
+    21300028: guns_14
+    21300030: guns_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: guns_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 202
+        width: 50
+        height: 38
+      alignment: 9
+      pivot: {x: 0.205116, y: 0.33944622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.2558, y: 25.101044}
+        - {x: -10.2558, y: -12.898956}
+        - {x: 13.7442, y: -12.898956}
+        - {x: 39.7442, y: 7.1010437}
+        - {x: 39.7442, y: 25.101044}
+    - name: guns_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 202
+        width: 64
+        height: 38
+      alignment: 9
+      pivot: {x: 0.13457227, y: 0.24578978}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.612625, y: 28.659988}
+        - {x: -8.612625, y: 21.659988}
+        - {x: -8.612625, y: -9.340012}
+        - {x: 22.387375, y: -9.340012}
+        - {x: 55.387375, y: 2.6599884}
+        - {x: 55.387375, y: 28.659988}
+    - name: guns_2
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 184
+        width: 66
+        height: 58
+      alignment: 9
+      pivot: {x: 0.40755993, y: 0.47370225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.898956, y: 30.525269}
+        - {x: -26.898956, y: -5.4747314}
+        - {x: -8.898956, y: -27.474731}
+        - {x: 18.101044, y: -27.474731}
+        - {x: 39.101044, y: 9.525269}
+        - {x: 39.101044, y: 30.525269}
+    - name: guns_3
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 188
+        width: 100
+        height: 64
+      alignment: 9
+      pivot: {x: 0.31696838, y: 0.36495066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63.30316, y: 40.643158}
+        - {x: -31.696838, y: 40.643158}
+        - {x: -31.696838, y: -5.356842}
+        - {x: -3.6968384, y: -23.356842}
+        - {x: 43.30316, y: -23.356842}
+        - {x: 68.30316, y: 8.643158}
+        - {x: 68.30316, y: 34.643158}
+    - name: guns_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 138
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.339446, y: 0.3504643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.898949, y: 22.084213}
+        - {x: -12.898949, y: -11.915787}
+        - {x: 13.101051, y: -11.915787}
+        - {x: 25.101051, y: 2.0842133}
+        - {x: 25.101051, y: 22.084213}
+    - name: guns_5
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 134
+        width: 96
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 23}
+        - {x: -48, y: 17}
+        - {x: -48, y: -14}
+        - {x: -42, y: -23}
+        - {x: 33, y: -23}
+        - {x: 48, y: -7}
+        - {x: 48, y: 22}
+        - {x: 46, y: 23}
+    - name: guns_6
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 138
+        width: 98
+        height: 40
+      alignment: 9
+      pivot: {x: 0.34954897, y: 0.2712105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.2558, y: 29.15158}
+        - {x: -34.2558, y: -10.848419}
+        - {x: 58.7442, y: -10.848419}
+        - {x: 63.7442, y: 8.151581}
+        - {x: 63.7442, y: 29.15158}
+    - name: guns_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 138
+        width: 102
+        height: 40
+      alignment: 9
+      pivot: {x: 0.30560362, y: 0.25849992}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.82843, y: 29.660004}
+        - {x: -5.17157, y: 23.660004}
+        - {x: -13.17157, y: 19.660004}
+        - {x: -27.17157, y: 17.660004}
+        - {x: -31.17157, y: 15.660004}
+        - {x: -31.17157, y: -10.339996}
+        - {x: 28.82843, y: -10.339996}
+        - {x: 69.82843, y: 7.6600037}
+        - {x: 70.82843, y: 8.660004}
+        - {x: 70.82843, y: 29.660004}
+    - name: guns_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 74
+        width: 40
+        height: 34
+      alignment: 9
+      pivot: {x: 0.2712106, y: 0.3953254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.848425, y: 20.558937}
+        - {x: -10.848425, y: -13.441063}
+        - {x: 12.151575, y: -13.441063}
+        - {x: 29.151575, y: 5.558937}
+        - {x: 29.151575, y: 20.558937}
+    - name: guns_9
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 74
+        width: 82
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 25}
+        - {x: -30, y: 25}
+        - {x: -41, y: 22}
+        - {x: -41, y: -25}
+        - {x: 17, y: -25}
+        - {x: 32, y: -19}
+        - {x: 41, y: -13}
+    - name: guns_10
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 70
+        width: 98
+        height: 52
+      alignment: 9
+      pivot: {x: 0.35992494, y: 0.31423113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.272644, y: 35.65998}
+        - {x: -35.272644, y: 25.65998}
+        - {x: -35.272644, y: -2.3400192}
+        - {x: -31.272644, y: -2.3400192}
+        - {x: -8.272644, y: -16.34002}
+        - {x: 35.727356, y: -16.34002}
+        - {x: 62.727356, y: 1.6599808}
+        - {x: 62.727356, y: 35.65998}
+    - name: guns_11
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 72
+        width: 102
+        height: 46
+      alignment: 9
+      pivot: {x: 0.29065, y: 0.25684223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 72.3537, y: 32.185257}
+        - {x: 62.3537, y: 34.185257}
+        - {x: -10.646301, y: 34.185257}
+        - {x: -29.646301, y: 13.185257}
+        - {x: -29.646301, y: -11.814743}
+        - {x: 72.3537, y: -11.814743}
+    - name: guns_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 10
+        width: 36
+        height: 34
+      alignment: 9
+      pivot: {x: 0.23166683, y: 0.30560353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.340006, y: 23.60948}
+        - {x: -8.340006, y: 22.60948}
+        - {x: -8.340006, y: -10.39052}
+        - {x: 8.659994, y: -10.39052}
+        - {x: 27.659994, y: 9.60948}
+        - {x: 27.659994, y: 23.60948}
+    - name: guns_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 10
+        width: 96
+        height: 34
+      alignment: 9
+      pivot: {x: 0.2510856, y: 0.41027883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.8957825, y: 20.05052}
+        - {x: -24.104218, y: 12.05052}
+        - {x: -24.104218, y: -13.94948}
+        - {x: 14.895782, y: -13.94948}
+        - {x: 65.89578, y: -5.94948}
+        - {x: 71.89578, y: 3.05052}
+        - {x: 71.89578, y: 20.05052}
+    - name: guns_14
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2
+        width: 100
+        height: 50
+      alignment: 9
+      pivot: {x: 0.3373053, y: 0.34747356}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.2694702, y: 32.62632}
+        - {x: -33.73053, y: 24.626322}
+        - {x: -33.73053, y: -3.3736782}
+        - {x: -12.73053, y: -17.373678}
+        - {x: 52.26947, y: -17.373678}
+        - {x: 66.26947, y: -5.373678}
+        - {x: 66.26947, y: 32.62632}
+    - name: guns_15
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 10
+        width: 128
+        height: 58
+      alignment: 9
+      pivot: {x: 0.24181747, y: 0.15813108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.952637, y: 48.8284}
+        - {x: -30.952637, y: 28.828398}
+        - {x: -30.952637, y: -3.1716022}
+        - {x: -9.952637, y: -6.1716022}
+        - {x: -8.952637, y: -3.1716022}
+        - {x: -8.952637, y: 0.82839775}
+        - {x: -8.952637, y: -5.1716022}
+        - {x: -6.9526367, y: -9.171602}
+        - {x: 76.04736, y: -9.171602}
+        - {x: 97.04736, y: -6.1716022}
+        - {x: 97.04736, y: 39.8284}
+        - {x: 89.04736, y: 48.8284}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
