@@ -2,10 +2,10 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class PlayerHealth : MonoBehaviour
+public class Health : MonoBehaviour
 {
     [SerializeField]private float _health;
-    private float _healthOffset;
+                    private float _healthOffset;
     [SerializeField]private Image _healthBar;
 	
     void Start()
@@ -17,9 +17,9 @@ public class PlayerHealth : MonoBehaviour
     {
         _health -= damage;
         CaluclateHealth();
-        if(_health <= 0)
+        if(_health <= 0f)
         {
-            Debug.Log("You died!");
+            Destroy(gameObject);
         }
     }
 
