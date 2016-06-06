@@ -4,5 +4,5 @@ using System.Collections;
 public interface IWeapon
 {
     void Shoot();
-    void Reload();
+    IEnumerator Reload();
 }

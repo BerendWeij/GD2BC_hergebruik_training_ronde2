@@ -26,18 +26,16 @@ public class PlayerInput : MonoBehaviour
             _movement.MoveRight();
         }
 
-        if(Input.GetKeyDown(KeyCode.Q))
-        {
-            _playerWeapons.SwitchWeapon();
-        }
-
+        //Reload Weapon
         if(Input.GetKeyDown(KeyCode.R))
         {
-            _playerWeapons.CurrentWeapon.Reload();
+            StartCoroutine(_playerWeapons.CurrentWeapon.Reload());
         }
 
+        //Shoot random Weapon
         if(Input.GetKeyDown(KeyCode.Mouse0))
         {
+            _playerWeapons.SwitchWeapon();
             _playerWeapons.CurrentWeapon.Shoot();
         }
 	}
