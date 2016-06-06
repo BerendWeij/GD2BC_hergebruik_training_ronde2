@@ -3,7 +3,7 @@ using System.Collections;
 
 public class TowerShoot : MonoBehaviour
 {
-    [SerializeField]private Transform _bullet;
+    [SerializeField]private GameObject _bullet;
     [SerializeField]private Transform _muzzle;
     private bool _isShooting = true;
     [SerializeField]private float _shootDelay;
@@ -15,7 +15,10 @@ public class TowerShoot : MonoBehaviour
 	
 	void ShootTower()
 	{
-        Instantiate(_bullet, _muzzle.position, _muzzle.rotation);
+        GameObject bullet = Instantiate(_bullet, _muzzle.position, _muzzle.rotation) as GameObject;
+        Bullet bulletInfo = bullet.GetComponent<Bullet>();
+        bulletInfo.Range = 50f;
+        bulletInfo.Damage = 5f;
 	}
 
     IEnumerator TowerShooting()

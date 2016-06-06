@@ -28,6 +28,7 @@ public class Bullet : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
+        Debug.Log("collided");
         col.gameObject.SendMessage("TakeDamage", _damage, SendMessageOptions.DontRequireReceiver);
         Destroy(gameObject);
     }
