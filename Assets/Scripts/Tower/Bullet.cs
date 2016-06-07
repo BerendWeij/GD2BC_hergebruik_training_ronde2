@@ -18,7 +18,7 @@ public class Bullet : MonoBehaviour
 	void Update ()
 	{	
 		Move ();
-		TimeAlive += 1f * Time.deltaTime;
+		TimeAlive += 0.25f * Time.deltaTime;
 	}
 	private void Move()
 	{
@@ -29,13 +29,4 @@ public class Bullet : MonoBehaviour
 			Destroy(this.gameObject);
 		}
 	}
-	void OnTriggerEnter2D(Collider2D col)
-	{
-		if (col.gameObject.tag == "Enemy")
-		{
-			//col.GetComponent<EnemyHp>().HpManager();
-			Destroy(this.gameObject);
-		}
-	}
-	
 }

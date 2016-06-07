@@ -10,7 +10,7 @@ public class TowerTarget : MonoBehaviour {
 
 	void Start()
 	{
-		layerMask = LayerMask.GetMask ("Enemy");
+		layerMask = LayerMask.GetMask ("Player");
 	}
 	// Update is called once per frame
 	void Update () 
@@ -22,7 +22,7 @@ public class TowerTarget : MonoBehaviour {
 			float Distance = -1f;
 			for (int i = 0; i < col.Length; i++) 
 			{
-				if (col[i].tag == "Enemy") 
+				if (col[i].tag == "Player") 
 				{
 					float distance = Vector2.Distance (col [i].transform.position, this.transform.position);
 					if (Distance == -1f) 
