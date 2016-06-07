@@ -65,14 +65,18 @@
     <Compile Include="Assets\Scripts\Base\BaseWeapon.cs" />
     <Compile Include="Assets\Scripts\Data\BaseWeaponData.cs" />
     <Compile Include="Assets\Scripts\Data\BulletData.cs" />
+    <Compile Include="Assets\Scripts\Data\CharacterHealthData.cs" />
     <Compile Include="Assets\Scripts\Data\InventoryData.cs" />
     <Compile Include="Assets\Scripts\Data\PlayerMovementData.cs" />
     <Compile Include="Assets\Scripts\Input\KeyboardInput.cs" />
     <Compile Include="Assets\Scripts\Object\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Object\CharacterHealth.cs" />
+    <Compile Include="Assets\Scripts\Object\Shotgun.cs" />
     <Compile Include="Assets\Scripts\Object\TurretAI.cs" />
     <Compile Include="Assets\Scripts\Object\Uzi.cs" />
     <Compile Include="Assets\Scripts\Player\Inventory.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\UI\HealthBar.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>

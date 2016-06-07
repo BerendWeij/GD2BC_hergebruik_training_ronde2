@@ -2,7 +2,7 @@
 
 public class KeyboardInput : MonoBehaviour {
 
-    bool up, down, left, right, fire = false;
+    bool up, down, left, right, fire, altFire = false;
 
     PlayerMovement pm;
     BaseWeapon bw;
@@ -20,6 +20,9 @@ public class KeyboardInput : MonoBehaviour {
     void Update() {
         KeyDown();
 
+        if (altFire) {
+            inv.EquipRandomWeapon();
+        }
         bw.triggerDown = fire;
         pm.Move(right, left, up);
         bw.Aim(Camera.main.ScreenToWorldPoint(Input.mousePosition));
@@ -33,6 +36,7 @@ public class KeyboardInput : MonoBehaviour {
         left = GK(keyLeft);
         right = GK(keyRight);
         fire = Input.GetMouseButton(0);
+        altFire = Input.GetMouseButton(1);
     }
 
     bool GK(KeyCode keyCode) {

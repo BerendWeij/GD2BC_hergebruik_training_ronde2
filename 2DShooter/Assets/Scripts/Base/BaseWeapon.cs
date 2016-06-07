@@ -10,7 +10,6 @@ public class BaseWeapon : BaseWeaponData {
                 coolingDown = true;
                 StartCoroutine(coolingDownTimer());
                 for (int i = 0; i < shotsToFire; i++) {
-
                     GameObject bulletObject = Instantiate(bulletPrefab);
                     Transform btf = bulletObject.transform;
                     Bullet bullet = bulletObject.GetComponent<Bullet>();
@@ -25,7 +24,13 @@ public class BaseWeapon : BaseWeaponData {
                     bullet.Lifetime = bulletLifetime;
                     bullet.FlightSpeed = bulletSpeed;
                     bullet.PenetrationLives = bulletPenetrationLives;
-                    bullet.Parent = gameObject;
+                    bullet.Damage = bulletDamage;
+
+                    bullet.Gun = gameObject;
+
+                    if (!turret) {
+                        bullet.Shooter = transform.parent.gameObject;
+                    }
                 }
             } else {
                 StartCoroutine(reloadingTimer());

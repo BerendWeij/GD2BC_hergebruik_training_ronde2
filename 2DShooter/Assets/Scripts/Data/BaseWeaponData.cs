@@ -43,23 +43,33 @@ public class BaseWeaponData : MonoBehaviour {
     [SerializeField]
     protected int bulletPenetrationLives = 0; // How much objects my bullets will penetrate.
 
+    [SerializeField]
+    protected int bulletDamage = 1;
+
     protected SpriteRenderer spriteRenderer;
 
-    // Eleven variables
-    public ArrayList CopyData() {
-        ArrayList items = new ArrayList(11);
+    protected bool turret = false;
 
-        items[0] = weaponName;
-        items[1] = weaponSprite;
-        items[2] = cooldownTime;
-        items[3] = spread;
-        items[4] = bulletPrefab;
-        items[5] = shotsToFire;
-        items[6] = clipSize;
-        items[7] = reloadTime;
-        items[8] = bulletLifetime;
-        items[9] = bulletSpeed;
-        items[10] = bulletPenetrationLives;
+    public virtual void SetupData() {
+        // To be replaced by weapons containing data.
+        Debug.LogError("Don't ask ReturnData() from " + this.GetType() + ".");
+    }
+
+    public ArrayList CopyData() {
+        ArrayList items = new ArrayList(12);
+
+        items.Add(weaponName);
+        items.Add(weaponSprite);
+        items.Add(cooldownTime);
+        items.Add(spread);
+        items.Add(bulletPrefab);
+        items.Add(shotsToFire);
+        items.Add(clipSize);
+        items.Add(reloadTime);
+        items.Add(bulletLifetime);
+        items.Add(bulletSpeed);
+        items.Add(bulletPenetrationLives);
+        items.Add(bulletDamage);
 
         return items;
     }
@@ -76,6 +86,7 @@ public class BaseWeaponData : MonoBehaviour {
         bulletLifetime = (float)items[8];
         bulletSpeed = (float)items[9];
         bulletPenetrationLives = (int)items[10];
+        bulletDamage = (int)items[11];
 
         UpdateSprite();
     }
@@ -147,5 +158,10 @@ public class BaseWeaponData : MonoBehaviour {
     public int BulletPenetrationLives {
         get { return bulletPenetrationLives; }
         set { bulletPenetrationLives = value; }
+    }
+
+    public bool Turret {
+        get { return turret; }
+        set { turret = value; }
     }
 }

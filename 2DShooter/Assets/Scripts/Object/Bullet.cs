@@ -10,12 +10,16 @@ public class Bullet : BulletData {
     void OnTriggerEnter2D(Collider2D other) {
         // Check if it's not in the list of objects I've already passed through.
 
-        if (other.gameObject.tag == "Player" || other.gameObject == parent) {
+        if (other.gameObject == gun || other.gameObject == shooter) {
             return;
         }
 
         if (penetratedObjects.IndexOf(other.gameObject) == -1 && other.gameObject.GetComponent<Bullet>() == null) {
-            // Damage touched object?
+            CharacterHealth health = other.GetComponent<CharacterHealth>();
+
+            if (health != null) {
+                health.Damage(damage);
+            }
 
             if (penetrationLives > 0) {
                 penetrationLives--;

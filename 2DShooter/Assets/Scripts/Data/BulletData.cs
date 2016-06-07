@@ -17,7 +17,9 @@ public class BulletData : MonoBehaviour {
 
     protected List<GameObject> penetratedObjects = new List<GameObject>(); // The list of objects I have penetrated and will ignore.
 
-    protected GameObject parent;
+    protected GameObject gun, shooter;
+
+    protected int damage;
 
     public float FlightSpeed {
         set { flightSpeed = value; }
@@ -34,8 +36,18 @@ public class BulletData : MonoBehaviour {
         get { return penetrationLives; }
     }
 
-    public GameObject Parent {
-        get { return parent; }
-        set { parent = value; }
+    public GameObject Gun {
+        get { return gun; }
+        set { gun = value; }
+    }
+
+    public GameObject Shooter {
+        get { return shooter; }
+        set { shooter = value; }
+    }
+
+    public int Damage {
+        get { return damage; }
+        set { damage = value; }
     }
 }
