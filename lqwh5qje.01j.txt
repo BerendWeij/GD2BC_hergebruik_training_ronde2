@@ -1,0 +1,61 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch Ferdi_Alleman
+# Your branch is up-to-date with 'origin/Ferdi_Alleman'.
+#
+# Changes to be committed:
+#	modified:   2DShooter/2DShooter.CSharp.csproj
+#	modified:   2DShooter/2DShooter.v12.suo
+#	modified:   2DShooter/Assets/Prefabs/Shotgun.prefab
+#	modified:   2DShooter/Assets/Scenes/main.unity
+#	modified:   2DShooter/Assets/Scripts/Base/BaseWeapon.cs
+#	modified:   2DShooter/Assets/Scripts/Data/BaseWeaponData.cs
+#	modified:   2DShooter/Assets/Scripts/Data/BulletData.cs
+#	modified:   2DShooter/Assets/Scripts/Data/InventoryData.cs
+#	modified:   2DShooter/Assets/Scripts/Input/KeyboardInput.cs
+#	modified:   2DShooter/Assets/Scripts/Object/Bullet.cs
+#	modified:   2DShooter/Assets/Scripts/Object/TurretAI.cs
+#	modified:   2DShooter/Assets/Scripts/Object/Uzi.cs
+#	modified:   2DShooter/Assets/Scripts/Player/Inventory.cs
+#	deleted:    2DShooter/Library/CrashedAssetImports.txt
+#	modified:   2DShooter/Library/InspectorExpandedItems.asset
+#	modified:   2DShooter/Library/ScriptAssemblies/Assembly-CSharp.dll
+#	modified:   2DShooter/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+#	modified:   2DShooter/Library/assetDatabase3
+#	modified:   2DShooter/Library/metadata/00/00000000000000004000000000000000
+#	modified:   2DShooter/Library/metadata/0a/0a918d97a3722274ab499732a73b0308
+#	modified:   2DShooter/Library/metadata/25/25559a897075a7d4b87a593dbff803f8
+#	modified:   2DShooter/Library/metadata/2b/2b6ce91fc32b3444fac39c564d0c47f5
+#	modified:   2DShooter/Library/metadata/3c/3c0736a74f7ce854db26e49fd0cf8e2c
+#	modified:   2DShooter/Library/metadata/7a/7acc4b5dc1f341745b830fc676f4c36c
+#	modified:   2DShooter/Library/metadata/ad/ad5d0260ca8ac2d418fd56c026729c85
+#	modified:   2DShooter/Library/metadata/e0/e0eb8bc5260fc654f8d2b6391638974d
+#	modified:   2DShooter/Library/metadata/e1/e17f598aa040b2c48a15bee28a3077aa
+#	modified:   2DShooter/Library/metadata/ee/eef23a7c74f36344891a91f66bd4cb90
+#	modified:   2DShooter/Library/shadercompiler-UnityShaderCompiler.exe0.log
+#
+# Untracked files:
+#	2DShooter/Assets/Prefabs/Uzi.prefab
+#	2DShooter/Assets/Prefabs/Uzi.prefab.meta
+#	2DShooter/Assets/Scripts/Data/CharacterHealthData.cs
+#	2DShooter/Assets/Scripts/Data/CharacterHealthData.cs.meta
+#	2DShooter/Assets/Scripts/Object/CharacterHealth.cs
+#	2DShooter/Assets/Scripts/Object/CharacterHealth.cs.meta
+#	2DShooter/Assets/Scripts/Object/Shotgun.cs
+#	2DShooter/Assets/Scripts/Object/Shotgun.cs.meta
+#	2DShooter/Assets/Scripts/UI.meta
+#	2DShooter/Assets/Scripts/UI/
+#	2DShooter/Library/ShaderCache/9/
+#	2DShooter/Library/ShaderCache/b/
+#	2DShooter/Library/metadata/20/
+#	2DShooter/Library/metadata/27/
+#	2DShooter/Library/metadata/37/
+#	2DShooter/Library/metadata/4d/4dc79ef6c9eca4e4e857b47cbeac1509
+#	2DShooter/Library/metadata/4d/4dc79ef6c9eca4e4e857b47cbeac1509.info
+#	2DShooter/Library/metadata/bd/bd507b4f068613f4e9892d01e1f84094
+#	2DShooter/Library/metadata/bd/bd507b4f068613f4e9892d01e1f84094.info
+#	2DShooter/Library/metadata/df/
+#	2DShooter/Temp/
+#
+
