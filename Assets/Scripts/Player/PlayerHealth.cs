@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -11,10 +12,19 @@ public class PlayerHealth : MonoBehaviour
     float damage;
     [SerializeField]
     GameObject healthBar;
+    [SerializeField]private Image _timerBar;
+    [SerializeField]private float _maxTimeInSeconds;
+    private float _timer;
 
     void Start()
     {
         curHealth = maxHealth;
+        _timer = _maxTimeInSeconds;
+    }
+
+    void Update()
+    {
+        Timer();
     }
 
     void OnCollisionEnter2D(Collision2D other)
@@ -30,6 +40,15 @@ public class PlayerHealth : MonoBehaviour
         curHealth -= damage;
         float calcHealth = curHealth / maxHealth;
         SetHealthBar(calcHealth);
+    }
+
+    void Timer()
+    {
+        if(_timer > 0)
+        {
+            _timer -= Time.deltaTime;
+            _timerBar.fillAmount = (_timer / _maxTimeInSeconds);
+        }
     }
 
     public void SetHealthBar(float myHealth)

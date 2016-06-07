@@ -22,7 +22,7 @@ public class Gun : MonoBehaviour
         }
     }
     void SwitchState() {
-        rng = Random.Range(0, 4);
+        rng = Random.Range(0, 6);
         switch (rng)
         {
             case 1:
@@ -35,13 +35,19 @@ public class Gun : MonoBehaviour
                 break;
             case 3:
                 print("Assault Rifle");
-                AssaultRifle();
+                //AssaultRifle();
                 break;
             case 4:
                 print("Shotgun");
                 break;
             case 5:
                 print("Sniper Rifle");
+                break;
+            case 6:
+                print("Laser");
+                break;
+            case 7:
+                print("Sniper");
                 break;
 
             default:
@@ -58,9 +64,19 @@ public class Gun : MonoBehaviour
         GameObject bullet = Instantiate(Bullet1, this.transform.forward, Quaternion.identity) as GameObject;
         bullet.transform.SetParent(this.transform);
     }
-    void AssaultRifle()
+    /*void AssaultRifle()
     {
         GameObject bullet = Instantiate(Bullet2, this.transform.forward, Quaternion.identity) as GameObject;
+        bullet.transform.SetParent(this.transform);
+    }*/
+    void Laser()
+    {
+        GameObject bullet = Instantiate(Bullet1, this.transform.forward, Quaternion.identity) as GameObject;
+        bullet.transform.SetParent(this.transform);
+    }
+    void Sniper()
+    {
+        GameObject bullet = Instantiate(Bullet1, this.transform.forward, Quaternion.identity) as GameObject;
         bullet.transform.SetParent(this.transform);
     }
 }
